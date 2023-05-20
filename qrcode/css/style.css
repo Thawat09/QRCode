@@ -1,0 +1,89 @@
+/* Main body styles */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Headline styles */
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Result box styles */
+.result {
+    background-color: green;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Row styles */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Main container styles */
+.container {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Result container styles */
+.result-container {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
+/* Table styles */
+.table {
+    border-collapse: collapse;
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+.table thead th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table tbody tr {
+    border: 1px solid #ddd;
+}
+
+.table tbody td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#scanResultCol {
+    padding: 30px;
+}
+
+/* Reader styles */
+#reader {
+    max-width: 500px;
+    width: 100%;
+}
+
+#reader__scan_region {
+    background: white;
+    max-width: 500px;
+    width: 100%;
+}

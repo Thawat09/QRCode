@@ -1,0 +1,79 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'THSarabunNew', sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px auto;
+    max-width: 800px;
+    width: 80%;
+}
+
+.container input[type="button"] {
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid rgb(57, 55, 55);
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.button-container {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Styles for smaller screens */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    img {
+        max-width: 50%;
+    }
+}
